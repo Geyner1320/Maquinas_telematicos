@@ -1,0 +1,6 @@
+firewall-cmd --zone=public --add-service=http
+firewall-cmd --zone=public --add-service=https
+firewall-cmd --zone=public --add-service=dns
+firewall-cmd --zone=internal --add-service=http
+firewall-cmd --zone=internal --add-service=https
+firewall-cmd --zone=internal --add-service=dns
